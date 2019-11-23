@@ -95,9 +95,9 @@ class ball:
     def bounce(self):#此括号内不能为空
         if self.direction=="down":
             self.direction="up"
-myball=ball("down")#创建实例时要注意脱离class的缩进
+myball=ball("down")  # 创建实例时要注意脱离class的缩进
 myball.bounce()
-print(ball.direction)#此处是一个错误，但系统不会报，运行时才有，详情参见文档Python创建对象
+print(ball.direction)  # 此处是一个错误，但系统不会报，运行时才有，详情参见文档Python创建对象
 
 #此代码是14章练习题，建立了一个银行账户类，并在其下建立了子类，继承了父类的方法函数，并自定义一个实例，并可自主进行存储操作
 class Bookcount:
